@@ -2,15 +2,11 @@ $(function(){
 	//header_main
 	function headerScroll(){
 		var scrollT = $(window).scrollTop();
+		
 		if(scrollT >= 400){
 			$('header').addClass('black');
 		}else{
 				$('header').removeClass('black');
-		}
-		if($('header').hasClass('black')){
-			$('header h1').find('img').attr('src','./img/logo_b.png');
-		}else{
-			$('header h1').find('img').attr('src','./img/logo.png');
 		}
 	}
 	//메인과 서브 분리 이벤트
@@ -20,7 +16,6 @@ $(function(){
 			var winHt = $(window).height();
 			var winWt = $(window).width();
 			var contPaddingT = winHt * 0.25;
-			//$('section.cont, .main-slider').height(winHt);
 			if(winWt > 1200){
 				$('.cont .main-slider .wrapper').css({'padding-top':contPaddingT});
 				if(winHt >= 900){
@@ -59,14 +54,17 @@ $(function(){
 				console.log(abc);
 				$('section.cont').height('auto');
 				$('.main-slider').height(per);
+				$('.main-slider').css({'min-height':winHt});
 				$('body,html').css({'overflow':'initial'});
 				$('.cont').off('mousewheel');
+				//slider.reloadSlider();
 			}
 		}
-		windowHt();
-		$(window).on('resize',function(){
 			windowHt();
-		});
+			$(window).on('resize',function(){
+				windowHt();
+			});
+		
 		//header
 		$(window).on('scroll',function(){
 			headerScroll();

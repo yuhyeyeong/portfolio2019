@@ -113,15 +113,14 @@ header .wrapper{max-width:none;position: relative;}
 header .wrapper h1 { position: absolute;top: 40px;left: 0;width: 8%;min-width:125px;}
 header .wrapper h1 img{ transition:all .4s; }
 header .wrapper #gnb{position: absolute; top: 52px;right: 0;}
-header .wrapper #gnb .gnb-btn{display: block;position: relative;width: 32px;height: 22px;overflow: hidden;background-color: transparent;border: 0;padding: 0;box-sizing: border-box;z-index: 1;transform-origin: 50%;}
+header .wrapper #gnb .gnb-btn{display: block;position: relative;width: 32px;height: 32px;overflow: hidden;background-color: transparent;border: 0;padding: 0;box-sizing: border-box;z-index: 1;transform-origin: 50%;}
 header .wrapper #gnb .gnb-btn span {display: inline-block;position: absolute;left: 0;width: 100%;height: 3px;background-color: #fff; transition:all .4s;}
-header .wrapper #gnb .gnb-btn span:nth-child(1){ top: 0; }
+header .wrapper #gnb .gnb-btn span:nth-child(1){ top: 5px; }
 header .wrapper #gnb .gnb-btn span:nth-child(2){top: 50%;margin-top: -1.5px;}
-header .wrapper #gnb .gnb-btn span:nth-child(3){bottom: 0;}
+header .wrapper #gnb .gnb-btn span:nth-child(3){bottom: 5px;}
 header .wrapper #gnb .gnb-nav{display: none;position: absolute;right: -90px;top: 140px; width: 184px; transform:rotate(90deg);transform-origin: 50%; transition:all .4s;  }
 header .wrapper #gnb .gnb-btn.on + .gnb-nav{ right: -74px; }
- header .wrapper #gnb .gnb-btn.on {height: 32px;}
- header .wrapper #gnb .gnb-btn.on span:nth-child(1){transform: rotate(40deg);top: 12px;}
+ header .wrapper #gnb .gnb-btn.on span:nth-child(1){ top: 0;transform: rotate(40deg);top: 12px;}
  header .wrapper #gnb .gnb-btn.on span:nth-child(2){ opacity: 0; }
  header .wrapper #gnb .gnb-btn.on span:nth-child(3){top: 12px;transform: rotate(-40deg);}
 header .wrapper #gnb .gnb-nav li{display:inline-block;padding: 0 12px;}

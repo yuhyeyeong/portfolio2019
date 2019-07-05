@@ -12,12 +12,13 @@ $(function(){
 	});
 
 	$('#gnb .gnb-btn').on('click touchstart',function(event){
+		var winWid = $(window).width();
 		event.stopPropagation();
 		event.preventDefault();
 		$(this).toggleClass('on');
 		$(this).find('span').eq(0).css({'left':'0'});
 		$(this).find('span').eq(2).css({'left':'0'});
-			$(this).siblings('.gnb-nav').stop().fadeToggle(500);
+		$(this).siblings('.gnb-nav').stop().fadeToggle(500);
 	});
 
 
@@ -30,9 +31,19 @@ $(function(){
 			$('.btn_top').stop().fadeOut(200);
 		}
 	}
+	//logo
+	function logoColor(){
+		if($('#header').hasClass('black')){
+			$('header h1').find('img').attr('src','./img/logo_b.png');
+		}else{
+			$('header h1').find('img').attr('src','./img/logo.png');
+		}
+	}
 	top_btn();
-	$(window).on('scroll',function(){
+	logoColor();
+	$(window).on('load scroll',function(){
 		top_btn();
+		logoColor();
 	});
 	$('.btn_top').on('click',function(e){
 		e.preventDefault();
