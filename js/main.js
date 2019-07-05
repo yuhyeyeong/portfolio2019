@@ -50,7 +50,7 @@ $(function(){
 				});
 			}else{
 				var contHt = $('#contents section .main-slider .wrapper').outerHeight();
-				var per = contHt + contHt * 0.03;
+				var per = contHt + contHt * 0.04;
 				$('section.cont').height('auto');
 				$('.main-slider').height(per);
 				$('.main-slider').css({'min-height':winHt});
