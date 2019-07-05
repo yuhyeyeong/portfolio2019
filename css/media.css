@@ -91,13 +91,14 @@
 	#contents .career > div .cont_small dl dd{ width: 100%; margin-top: 3%; text-align: center; }
 
 	/* sub portfolio */
+	.sub_cont h2{font-size: 2.5rem;}
 	.sub_cont .list > li{ width: 100%; }
 	.sub_cont .list > li a img, .sub_cont .list > li a .inner{ display: block; width: 100%;}
 	.sub_cont .list > li:hover a img{ transform:scale(1); }
 	.sub_cont .list > li a .inner{position: relative;top: 0;opacity: 1;padding: 15% 2%;background: #323232;box-sizing: border-box;}
 	.sub_cont .list > li:nth-child(odd) a .inner{background: #323232;}
 	.sub_cont .list > li a .inner:after{content: '';display: block;position: absolute;top: -3px;left: 50%;width: 34px;height: 34px;transform:rotate(45deg) translateX(-50%);background: #323232;}
-	.sub_cont .list > li a .inner h3{ margin-top: 0; }
+	.sub_cont .list > li a .inner h3{ margin-top: 0; font-size: 1.25rem;}
 	.sub_cont .list > li a .inner .ani span{ width: 25%; opacity: 1; }
 }
 
@@ -114,6 +115,6 @@
 	#contents .career > div .cont_small li{ margin-bottom: 6%; }
 
 	/* sub portfolio */
-	.sub_cont{ margin-top: 20%; }
+	.sub_cont{ margin-top: 22%; }
 	.sub_cont h2{ font-size: 2rem; }
 }
