@@ -27,6 +27,7 @@ $(function(){
 			}else{
 				$('.cont .main-slider .wrapper, #contents section .main-slider > li .txt').removeAttr('style');
 			}
+			/***데스크탑 / 태블릿~모바일***/
 			if(winWt  > 1024){
 				$('section.cont, .main-slider').height(winHt);
 				//스크롤바
@@ -51,17 +52,20 @@ $(function(){
 			}else{
 				var contHt = $('#contents section .main-slider .wrapper').outerHeight();
 				var per = contHt + contHt * 0.04;
+				//메인슬라이드 높이값
 				$('section.cont').height('auto');
 				$('.main-slider').height(per);
 				$('.main-slider').css({'min-height':winHt});
+				//스크롤 및 마우스휠
 				$('body,html').css({'overflow':'initial'});
 				$('.cont').off('mousewheel');
 			}
 		}
+
+		windowHt();
+		$(window).on('resize',function(){
 			windowHt();
-			$(window).on('resize',function(){
-				windowHt();
-			});
+		});
 		
 		//header
 		$(window).on('scroll',function(){
