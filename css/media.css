@@ -85,6 +85,7 @@
 	.pop .bg li .txt { font-size: .725rem; }
 	.pop .per li span{ margin-top: -14px; margin-left: 8px; font-size: 1rem;}
 	#contents .career > div{ padding: 12% 5%; }
+	#contents .career > div .cont_small li{padding: 3vw 4vw;}
 	#contents .career > div .cont_small dl{margin-bottom: 8%;padding-bottom: 14%;}
 	#contents .career > div .cont_small dl:after{left: 50%;height: 40px;bottom: 0px;}
 	#contents .career > div .cont_small dl dt{ display: block; margin: 0 auto; }
