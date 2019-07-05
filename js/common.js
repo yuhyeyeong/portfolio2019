@@ -105,6 +105,8 @@ $(function(){
 				},750,'easeInOutQuad');
 			};
 		});
+	}else{
+		$('header').addClass('black');
 	}
 
 });
