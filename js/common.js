@@ -20,7 +20,7 @@ $(function(){
 		$(this).find('span').eq(2).css({'left':'0'});
 			$(this).siblings('.gnb-nav').stop().fadeToggle(500);
 	});
-
+/*
 	headerScroll();
 	function headerScroll(){
 		var scrollT = $(window).scrollTop();
@@ -43,7 +43,33 @@ $(function(){
 		headerScroll();
 		 
 	});
+*/
 
+	function headerScroll(){
+		var scrollT = $(window).scrollTop();
+		if(scrollT >= 400){
+			$('header').addClass('black');
+		}else{
+				$('header').removeClass('black');
+		}
+		if($('header').hasClass('black')){
+			$('header h1').find('img').attr('src','./img/logo_b.png');
+		}else{
+			$('header h1').find('img').attr('src','./img/logo.png');
+		}
+	}
+	function top_btn(){
+		var scrollT = $(window).scrollTop();
+		if(scrollT >= 500){
+			$('.btn_top').stop().fadeIn(300);
+		}else{
+			$('.btn_top').stop().fadeOut(200);
+		}
+	}
+	top_btn();
+	$(window).on('scroll',function(){
+		top_btn();
+	});
 	$('.btn_top').on('click',function(e){
 		e.preventDefault();
 		$('html, body').stop().animate({scrollTop:'0'},300,'linear')
@@ -55,6 +81,10 @@ $(function(){
 		$(window).on('resize',function(){
 			windowHt();
 			slider();
+		});
+		//header
+		$(window).on('scroll',function(){
+			headerScroll();
 		});
 		//스크롤바
 		$('body,html').css({'overflow':'hidden'});
