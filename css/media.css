@@ -12,8 +12,8 @@
 	.i_dot:before{ display: none; }
 	.pop { min-width: auto; min-height: auto; width: 85%; }
 	.dis_tbl{ display: block; }
-	.dis_tbl > div{ display: block; }
-	header .wrapper{padding: 1.5% 0;width: 92%;}
+	.dis_tbl > div{ display: block; } 
+	header .wrapper { padding: 1.5% 3%; width: 100%; box-sizing: border-box; }
 	header .wrapper h1{ position: static; float: left; width: 80px; min-width: 	auto; }
 	header .wrapper #gnb{ position: static; float: right; }
 	header .wrapper #gnb .gnb-btn span{ height: 2px; }
@@ -103,7 +103,7 @@
 
 @media screen and (max-width:480px){
 	/* common */
-	header .wrapper{ padding: 3% 0; }
+	header .wrapper{ padding: 3%; }
 	header .wrapper h1{ width: 72px; }
 	header .wrapper #gnb .gnb-btn{ width: 24px; height: 24px; }
 	
