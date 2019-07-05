@@ -108,6 +108,7 @@
 	header .wrapper{ padding: 3%; }
 	header .wrapper h1{ width: 72px; }
 	header .wrapper #gnb .gnb-btn{ width: 24px; height: 24px; }
+	footer p{ font-size: .825rem; }
 	
 	/* main */
 	#contents section .main-slider .wrapper{ padding-top: 18%; }
