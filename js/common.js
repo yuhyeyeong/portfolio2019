@@ -51,7 +51,7 @@ $(function(){
 	});
 
 	var currHref = location.href;
-	if(currHref.split('hyeyeong.dothome.co.kr')[1] == '/' || currHref.split('hyeyeong.dothome.co.kr')[1] == '/#' || currHref.indexOf('/index') >= 0){
+	if(currHref.split('https://yuhyeyeong.github.io/portfolio2019')[1] == '/' || currHref.split('https://yuhyeyeong.github.io/portfolio2019')[1] == '/#' || currHref.indexOf('/index') >= 0){
 		$(window).on('resize',function(){
 			windowHt();
 			slider();
