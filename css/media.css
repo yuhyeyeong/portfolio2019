@@ -20,7 +20,7 @@
 	header .wrapper #gnb .gnb-nav{transform: rotate(0);top: 62px;right: 0;width: 100%;background: #2e2a2a;z-index: 97;/* height: 100%; */}
 	header .wrapper #gnb .gnb-btn.on + .gnb-nav{ right: 0; }
 	header .wrapper #gnb .gnb-nav li{display:block;width:100%;padding:0;box-sizing: border-box;}
-	header .wrapper #gnb .gnb-nav li a{display: block;width: 100%;padding: 2% 5%;color:#fff;box-sizing: border-box;}
+	header .wrapper #gnb .gnb-nav li a{display: block;width: 100%;padding: 3% 5%;color:#fff;box-sizing: border-box;}
 	header .wrapper #gnb .gnb-nav li:hover a{background:#383838}
 	header .wrapper #gnb .gnb-nav li:hover a:after{ display:none; }
 	header.black{ background: #ffffff; box-shadow: 0 0 10px rgba(0,0,0,.2); }
@@ -78,8 +78,13 @@
 
 @media screen and (max-width:480px){
 	/* common */
-	#contents section .main-slider .wrapper{ padding-top: 18%; }
+	header .wrapper{ padding: 3% 0; }
+	header .wrapper h1{ width: 72px; }
+	header .wrapper #gnb .gnb-btn{ width: 24px; height: 24px; }
 	
 	/* main */
+	#contents section .main-slider .wrapper{ padding-top: 18%; }
 	#contents section .main-slider > li .img{ height: 220px; }
+	#contents .career > div .cont_small h3{ font-size: 1.05rem; }
+	#contents .career > div .cont_small li{ margin-bottom: 6%; }
 }

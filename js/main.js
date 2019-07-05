@@ -49,15 +49,15 @@ $(function(){
 					};
 				});
 			}else{
-				var abc = $('#contents section .main-slider .wrapper').outerHeight();
-				var per = abc + abc * 0.04;
-				console.log(abc);
+				var contHt = $('#contents section .main-slider .wrapper').outerHeight();
+				var per = contHt + contHt * 0.03;
+				var headerHt = 	$('header').outerHeight();
 				$('section.cont').height('auto');
 				$('.main-slider').height(per);
 				$('.main-slider').css({'min-height':winHt});
 				$('body,html').css({'overflow':'initial'});
 				$('.cont').off('mousewheel');
-				//slider.reloadSlider();
+				$('header .wrapper #gnb .gnb-nav').css({'top':headerHt});
 			}
 		}
 			windowHt();
