@@ -106,7 +106,7 @@
 	
 	/* main */
 	#contents section .main-slider .wrapper{ padding-top: 18%; }
-	#contents section .main-slider > li .img{ height: 220px; }
+	#contents section .main-slider > li .img{ height: 200px; }
 	#contents .career > div .cont_small h3{ font-size: 1.05rem; }
 	#contents .career > div .cont_small li{ margin-bottom: 6%; }
 
