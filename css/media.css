@@ -59,6 +59,7 @@
 @media screen and (max-width:740px){
 	/* common */
 	body{ font-size: 13px; }
+	.wrapper { width: 94%; }
 
 	/* main */
 	#contents section{ min-height:auto; }
@@ -68,6 +69,9 @@
 	#contents section .main-slider > li .txt .tit + p{font-size: 1rem;margin-top: 2%;margin-bottom: 7%;}
 	#contents section .main-slider > li .txt .tit + p:after{ display: none; }
 	#contents section .main-slider > li .txt .tit + p span{ display: block; }
+	#contents section .main-slider > li .txt .btn-wrap .btn_line{ width: 49%; }
+	#contents section .main-slider > li .txt .btn-wrap .btn_line:first-child{ margin-right: 2%; }
+	#contents section .main-slider > li .txt .btn-wrap .btn:last-child{ margin-top: 2%; }
 	#contents .main .bx-controls-direction{ display: none; }
 	.pop{ width: 92%; }
 	.pop .i_cancel{ display: none; }
