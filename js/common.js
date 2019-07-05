@@ -39,11 +39,20 @@ $(function(){
 			$('header h1').find('img').attr('src','./img/logo.png');
 		}
 	}
+	function mobile(){
+		var headerHt = 	$('header').outerHeight();
+		$('header .wrapper #gnb .gnb-nav').css({'top':headerHt});
+	}
 	top_btn();
 	logoColor();
+	mobile();
 	$(window).on('load scroll',function(){
 		top_btn();
 		logoColor();
+	});
+
+	$(window).on('resize',function(){
+		mobile();
 	});
 	$('.btn_top').on('click',function(e){
 		e.preventDefault();
