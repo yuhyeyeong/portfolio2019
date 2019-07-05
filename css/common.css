@@ -1,6 +1,6 @@
 @charset 'utf-8';
 
-/*ì´ˆê¸°í™”*/
+/*초기화*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -55,6 +55,7 @@ button:active, button:focus {
 }
 
 img { 
+	width: 100%;
 	border:none;
 	vertical-align: top;
 	max-width:100%;
@@ -64,7 +65,7 @@ a{
 	text-decoration: none;
 }
 
-/* ê³µí†µ */
+/* 공통*/
 ::selection{background: #404040; color: #fff;}
 ::-moz-selection{background: #404040; color: #fff;}
 body{font-family: 'spoqa-hs'; font-size: 17px; color: #404040; line-height: 1.4;}
@@ -108,10 +109,10 @@ body{font-family: 'spoqa-hs'; font-size: 17px; color: #404040; line-height: 1.4;
 
 /*header*/
 header{position: fixed;top: 0;left: 0;width: 100%;z-index: 98;transition:all .4s;}
-header .wrapper{max-width:none;position: relative;/* padding: 40px 0; */}
-header .wrapper h1 {/* float: left; */position: absolute;top: 40px;left: 0;width: 125px;max-width: 8%;min-width:100px;}
+header .wrapper{max-width:none;position: relative;}
+header .wrapper h1 { position: absolute;top: 40px;left: 0;width: 8%;min-width:125px;}
 header .wrapper h1 img{ transition:all .4s; }
-header .wrapper #gnb{position: absolute;/* float: right; */top: 52px;right: 0;/* margin: 15px 0; */}
+header .wrapper #gnb{position: absolute; top: 52px;right: 0;}
 header .wrapper #gnb .gnb-btn{display: block;position: relative;width: 32px;height: 22px;overflow: hidden;background-color: transparent;border: 0;padding: 0;box-sizing: border-box;z-index: 1;transform-origin: 50%;}
 header .wrapper #gnb .gnb-btn span {display: inline-block;position: absolute;left: 0;width: 100%;height: 3px;background-color: #fff; transition:all .4s;}
 header .wrapper #gnb .gnb-btn span:nth-child(1){ top: 0; }

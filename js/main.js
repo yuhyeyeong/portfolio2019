@@ -1,12 +1,80 @@
 $(function(){
-
-	function windowHt(){
-		var winHt = $(window).height();
-		var contPaddingT = winHt * 0.22;
-		$('.cont .main-slider .wrapper').css({'padding-top':contPaddingT});
-		$('section.cont, .main-slider').height(winHt);
+	//header_main
+	function headerScroll(){
+		var scrollT = $(window).scrollTop();
+		if(scrollT >= 400){
+			$('header').addClass('black');
+		}else{
+				$('header').removeClass('black');
+		}
+		if($('header').hasClass('black')){
+			$('header h1').find('img').attr('src','./img/logo_b.png');
+		}else{
+			$('header h1').find('img').attr('src','./img/logo.png');
+		}
 	}
-	windowHt();
+	//메인과 서브 분리 이벤트
+	var currHref = location.href;
+	if(currHref.split('https://yuhyeyeong.github.io/portfolio2019')[1] == '/' || currHref.split('https://yuhyeyeong.github.io/portfolio2019')[1] == '/#' || currHref.indexOf('/index') >= 0){
+		function windowHt(){
+			var winHt = $(window).height();
+			var winWt = $(window).width();
+			var contPaddingT = winHt * 0.25;
+			//$('section.cont, .main-slider').height(winHt);
+			if(winWt > 1200){
+				$('.cont .main-slider .wrapper').css({'padding-top':contPaddingT});
+				if(winHt >= 900){
+					var contMarginT = winHt * 0.2;
+					$('.main-slider li .txt').css({'margin-top':contMarginT});
+				}else{
+					$('.main-slider li .txt').css({'margin-top':'4vw'});
+				}
+			}else{
+				$('.cont .main-slider .wrapper, #contents section .main-slider > li .txt').removeAttr('style');
+			}
+			if(winWt  > 1024){
+				$('section.cont, .main-slider').height(winHt);
+				//스크롤바
+				$('body,html').css({'overflow':'hidden'});
+				//mousewheel
+				$('.cont').on('mousewheel',function(event,delta){
+					event.preventDefault();
+					event.stopPropagation();
+					if(delta > 0){
+						var prev = $(this).prev().offset().top;
+						$('html,body').stop().animate({
+							'scrollTop': prev
+						},750,'easeInOutQuad');    
+					};
+					if(delta < 0){
+						var next = $(this).next().offset().top;
+						$('html,body').stop().animate({
+							'scrollTop':next
+						},750,'easeInOutQuad');
+					};
+				});
+			}else{
+				var abc = $('#contents section .main-slider .wrapper').outerHeight();
+				var per = abc + abc * 0.04;
+				console.log(abc);
+				$('section.cont').height('auto');
+				$('.main-slider').height(per);
+				$('body,html').css({'overflow':'initial'});
+				$('.cont').off('mousewheel');
+			}
+		}
+		windowHt();
+		$(window).on('resize',function(){
+			windowHt();
+		});
+		//header
+		$(window).on('scroll',function(){
+			headerScroll();
+		});
+		
+	}else{
+		$('header').addClass('black');
+	}
 
 	slider = $('.main-slider') .bxSlider({
 		mode:'fade',
@@ -29,7 +97,6 @@ $(function(){
 			e.preventDefault();
 			var winH = $(window).height();
 			var thisIdx = $(this).parents('li').index();
-			console.log(thisIdx);
 			slider.stopAuto();
 			$('html').css({'width':'100%','height':'100%','position':'fixed'});
 			$('.bg_pop').stop().fadeIn();
@@ -54,6 +121,7 @@ $(function(){
 			});
 	
 	});
+
 	
 
 });
