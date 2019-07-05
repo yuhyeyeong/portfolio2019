@@ -109,6 +109,7 @@
 	header .wrapper h1{ width: 72px; }
 	header .wrapper #gnb .gnb-btn{ width: 24px; height: 24px; }
 	footer p{ font-size: .825rem; }
+	footer .wrapper small{ line-height: 1.3; }
 	
 	/* main */
 	#contents section .main-slider .wrapper{ padding-top: 18%; }
