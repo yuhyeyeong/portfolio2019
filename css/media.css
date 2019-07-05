@@ -65,7 +65,7 @@
 	#contents section{ min-height:auto; }
 	#contents section .main-slider .wrapper{ padding-top: 15%; }
 	#contents section .main-slider > li .img{ height: 340px; }
-	#contents section .main-slider > li .txt .tit{ font-size: 2.25rem; }
+	#contents section .main-slider > li .txt .tit{ font-size: 2rem; }
 	#contents section .main-slider > li .txt .tit + p{font-size: 1rem;margin-top: 2%;margin-bottom: 7%;}
 	#contents section .main-slider > li .txt .tit + p:after{ display: none; }
 	#contents section .main-slider > li .txt .tit + p span{ display: block; }
@@ -106,7 +106,7 @@
 	
 	/* main */
 	#contents section .main-slider .wrapper{ padding-top: 18%; }
-	#contents section .main-slider > li .img{ height: 200px; }
+	#contents section .main-slider > li .img{ height: 195px; }
 	#contents .career > div .cont_small h3{ font-size: 1.05rem; }
 	#contents .career > div .cont_small li{ margin-bottom: 6%; }
 
