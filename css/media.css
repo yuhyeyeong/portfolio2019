@@ -87,7 +87,7 @@
 	.pop .per li:nth-child(1){ margin-bottom: 2%; }
 	.pop .per li p{ height: 25px; padding: 3px 8px; font-size: .825rem; }
 	.pop .bg{ padding-bottom: 5%; }
-	.pop .bg li{ width: 29%; }
+	.pop .bg li{ width: 31%; }
 	.pop .bg li .img{ height: 92px; }
 	.pop .bg li img{ max-width:55px; }
 	.pop .bg li .txt { font-size: .725rem; margin-top: -10px; }
