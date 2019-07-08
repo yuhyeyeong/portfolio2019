@@ -1,10 +1,10 @@
 @charset 'utf-8';
 
-/* contents 공통 */
+/* contents ê³µí†µ */
 #contents{ width: 100%; }
 #contents section{ width: 100%; height: 100%; /* overflow: hidden;  */}
 
-/* main-slider 공통 */
+/* main-slider ê³µí†µ */
 #contents section .main-slider{ width: 100%; height: 100%; }
 #contents section .main-slider .wrapper{padding-top: 10%;}
 #contents section .main-slider > li{ height: 100%; background-repeat:no-repeat;background-position: left center;background-size:cover;background-attachment: fixed;}
@@ -75,10 +75,13 @@
 .pop .btn_wrap .btn_line{ float: left; width: 49%; padding: 2% 3%;border-color:#7597c8; color:#7597c8; border-radius:0;}
 .pop .btn_wrap .btn_line:first-child{ margin-right: 2%; }
 .pop .btn_wrap .btn_line:hover{ background: #7597c8; color: #fff; }
-.pop .i_cancel{ position: absolute; width: 22px; height: 22px; top: -20px; right: -40px; }
+.pop .i_cancel{position: absolute;width: 25px;height: 25px;top: -4%;right: -4%;}
+.pop .i_cancel span{display:block;position:absolute;top: 50%;left:0;width: 24px;width: 26px;height: 2px;background:#fff;}
+.pop .i_cancel span:nth-child(1){transform:rotate(42deg)}
+.pop .i_cancel span:nth-child(2){transform:rotate(-42deg)}
 .bg_pop{display: none;position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(43, 45, 51, .6); z-index: 999; cursor:pointer;}
 
-/* career  공통*/
+/* career  ê³µí†µ*/
 #contents .career > div{ width: 50%; height: 100%; }
 #contents .career > div:first-child{ background-color: #f1f1f1; overflow: hidden; }
 #contents .career > div .cont_small{min-width: 550px;width: 78%;float: left;box-sizing:border-box;}

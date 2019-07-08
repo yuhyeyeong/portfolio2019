@@ -135,7 +135,7 @@ header.black #gnb .gnb-nav a{  color: #363636;}
 header.black #gnb .gnb-nav a:after{background: #363636;}
 
 /* top_btn */
-.btn_top { display: none; width: 40px; height: 40px; position: fixed; border-radius: 8px; background: #ffa03a; bottom: 30px; right: 3%; z-index: 99; }
+.btn_top { display: none; width: 40px; height: 40px; position: fixed; border-radius: 8px; background: #ffa03a; bottom: 30px; right: 3%; z-index: 99; box-shadow: 0 0 15px rgba(0,0,0,.15); }
 .btn_top span {display: inline-block;position: absolute; width: 30%;height: 2px;margin-top: -1px;background-color: #fff;transition:all .4s;}
 .btn_top span:nth-child(1){transform: rotate(-40deg);top: 50%;left: 10px;}
 .btn_top span:nth-child(2){top: 50%;transform: rotate(40deg);right: 10px;}

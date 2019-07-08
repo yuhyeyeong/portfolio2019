@@ -62,6 +62,7 @@
 	/* common */
 	body{ font-size: 13px; }
 	.wrapper { width: 94%; }
+	footer .wrapper { padding: 7% 0; }
 
 	/* main */
 	#contents section{ min-height:auto; }
@@ -77,14 +78,19 @@
 	#contents section .main-slider > li .txt .btn-wrap .btn:last-child{ width: 49%; margin-top: 0; }
 	#contents .main .bx-controls-direction{ display: none; }
 	.pop{ width: 92%; }
-	.pop .i_cancel{ display: none; }
+	.pop .i_cancel{ top:3%; right:3%; }
+	.pop .i_cancel span{ width:24px;background:#484848; }
 	.pop h3{ font-size: 1.5rem; }
 	.pop h3 small{ padding: 2px 10px;font-size: .825rem; }
 	.pop h3 span { display: block; position: static; margin-top: 6px; }
+	.pop .per li { width: calc(100% - 50px); }
 	.pop .per li:nth-child(1){ margin-bottom: 2%; }
 	.pop .per li p{ height: 25px; padding: 3px 8px; font-size: .825rem; }
+	.pop .bg{ padding-bottom: 5%; }
 	.pop .bg li{ width: 29%; }
-	.pop .bg li .txt { font-size: .725rem; }
+	.pop .bg li .img{ height: 92px; }
+	.pop .bg li img{ max-width:55px; }
+	.pop .bg li .txt { font-size: .725rem; margin-top: -10px; }
 	.pop .per li span{ margin-top: -14px; margin-left: 8px; font-size: 1rem;}
 	#contents .career > div{ padding: 12% 5%; }
 	#contents .career > div .cont_small li{padding: 3vw 4vw;}
@@ -98,9 +104,10 @@
 	.sub_cont .list > li{ width: 100%; }
 	.sub_cont .list > li a img, .sub_cont .list > li a .inner{ display: block; width: 100%;}
 	.sub_cont .list > li:hover a img{ transform:scale(1); }
-	.sub_cont .list > li a .inner{position: relative;top: 0;opacity: 1;padding: 15% 2%; margin-top: -10%; background: #323232;box-sizing: border-box;}
-	.sub_cont .list > li:nth-child(odd) a .inner{background: #323232;}
-	.sub_cont .list > li a .inner:after{content: '';display: block;position: absolute;top: -3px;left: 50%;width: 34px;height: 34px;transform:rotate(45deg) translateX(-50%);background: #323232;}
+	.sub_cont .list > li a .inner{position: relative;top: 0;opacity: 1;padding: 15% 2%; margin-top: -10%; background: #ffa03a;box-sizing: border-box;}
+	.sub_cont .list > li:nth-child(odd) a .inner { background: #45afbc; }
+	.sub_cont .list > li a .inner:after{content: '';display: block;position: absolute;top: 0px;left: 50%;width: 26px;height: 26px;transform:rotate(45deg) translateX(-50%);background: #ffa03a;}
+	.sub_cont .list > li:nth-child(odd) a .inner:after{background: #45afbc;}
 	.sub_cont .list > li a .inner h3{ margin-top: 0; font-size: 1.25rem;}
 	.sub_cont .list > li a .inner .ani span{ width: 25%; opacity: 1; }
 }
