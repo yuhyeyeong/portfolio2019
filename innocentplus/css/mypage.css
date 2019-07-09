@@ -867,33 +867,33 @@ ul:after{
 	z-index:998;
 }
 /*content*/
-#content{
+.mypage{
 	width:100%;
 	margin-bottom:60px;
 }
 /*카테고리경로*/
-#content > .location{
+.mypage > .location{
 	width:100%;
 }
-#content > .location > .wrapper > ul{
+.mypage > .location > .wrapper > ul{
 	float:right;
 	font-size:13px;
 }
-#content > .location > .wrapper > ul > li{
+.mypage > .location > .wrapper > ul > li{
 	float:left;
 	margin-right:10px;
 	height:40px;
 	line-height:40px;
 	color:#999;
 }
-#content > .location > .wrapper > ul > li:nth-child(2){
+.shopcart> .location > .wrapper > ul > li:nth-child(2){
 	margin-right:0px;
 }
-#content > .location > .wrapper > ul > li > a{
+.mypage > .location > .wrapper > ul > li > a{
 	padding-right:10px;
 	color:#555;
 } 
-#content > .location > .wrapper > ul > li:nth-child(2) > a{
+.mypage > .location > .wrapper > ul > li:nth-child(2) > a{
 	font-weight:900;
 } 
 /*상단*/
@@ -1030,7 +1030,7 @@ ul:after{
 	margin-left:0px;
 }
 /*con1 최근 주문내역*/
-.mypage .mypage #con1 > .wrapper > ul > li{
+.mypage #con1 > .wrapper > ul > li{
 	width:1170px;
 	color:#333;
 	border-bottom:2px solid #eee;

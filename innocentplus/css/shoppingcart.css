@@ -24,41 +24,41 @@
 	margin-bottom:130px;
 }
 /*카테고리경로*/
-#content > .location{
+.shopcart > .location{
 	width:100%;
 }
-#content > .location > .wrapper > ul{
+.shopcart > .location > .wrapper > ul{
 	float:right;
 	font-size:13px;
 }
-#content > .location > .wrapper > ul > li{
+.shopcart > .location > .wrapper > ul > li{
 	float:left;
 	margin-right:10px;
 	height:40px;
 	line-height:40px;
 	color:#999;
 }
-#content > .location > .wrapper > ul > li:nth-child(2){
+.shopcart > .location > .wrapper > ul > li:nth-child(2){
 	margin-right:0px;
 }
-#content > .location > .wrapper > ul > li > a{
+.shopcart > .location > .wrapper > ul > li > a{
 	padding-right:10px;
 	color:#555;
 } 
-#content > .location > .wrapper > ul > li:nth-child(2) > a{
+.shopcart > .location > .wrapper > ul > li:nth-child(2) > a{
 	font-weight:900;
 } 
 /*상단*/
-#content > div:nth-child(2){
+.shopcart > div:nth-child(2){
 	width:100%;
 	margin-top:20px;
 }
-#content > div:nth-child(2) > .wrapper > ul{
+.shopcart > div:nth-child(2) > .wrapper > ul{
 	width:1170px;
 	height:75px;
 	background-image:url('../img/shoppingcart/shopping_title.png');
 }
-#content > div:nth-child(2) > .wrapper > ul > li{
+.shopcart > div:nth-child(2) > .wrapper > ul > li{
 	width:200px;
 	height:67px;
 	float:left;
