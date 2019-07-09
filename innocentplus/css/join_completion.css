@@ -1,0 +1,178 @@
+@charset 'utf-8';
+
+/*content*/
+.JoinContent{
+	width:100%;
+	margin-bottom:80px;
+}
+/*카테고리경로*/
+.JoinContent > .location{
+	width:100%;
+}
+.JoinContent > .location > .wrapper > ul{
+	float:right;
+	font-size:13px;
+}
+.JoinContent > .location > .wrapper > ul > li{
+	float:left;
+	margin-right:10px;
+	height:40px;
+	line-height:40px;
+	color:#999;
+}
+.JoinContent > .location > .wrapper > ul > li:nth-child(2){
+	margin-right:0px;
+}
+.JoinContent > .location > .wrapper > ul > li > a{
+	padding-right:10px;
+	color:#555;
+} 
+.JoinContent > .location > .wrapper > ul > li:nth-child(2) > a{
+	font-weight:900;
+} 
+/*상단*/
+.JoinContent > div:nth-child(2){
+	width:100%;
+	margin-top:20px;
+}
+.JoinContent > div:nth-child(2) > .wrapper > ul{
+	width:1170px;
+	height:75px;
+	background-image:url('../img/join_completion/joinCompletion_title.png');
+}
+.JoinContent > div:nth-child(2) > .wrapper > ul > li{
+	width:200px;
+	height:67px;
+	float:left;
+	padding-left:40px;
+	text-align:center;
+	padding-top:8px;
+	font-size:15px;
+	color:#7f7f7f;
+	font-weight:600;
+}
+/*1*/
+.JoinContent > div:nth-child(2) > .wrapper > ul > li:nth-child(1){
+	width:422px;
+	text-align:left;
+	font-size:26px;
+	color:#fff;
+	font-weight:600;
+	padding-top:22px;
+	height:75px;
+	padding-left:28px;
+}
+.JoinContent > div:nth-child(2) > .wrapper > ul > li:nth-child(1) > i{
+	display:inline-block;
+	width:32px;
+	height:32px;
+	padding-top:0px;
+	font-size:29px;
+	vertical-align:middle;
+}
+.JoinContent > div:nth-child(2) > .wrapper > ul > li:nth-child(1) > span{
+	display:inline-block;
+	vertical-align:top;
+}
+/*2 3 4*/
+.JoinContent > div:nth-child(2) > .wrapper > ul > li > strong{
+	display:block;
+	font-size:32px;
+	font-weight:900;
+}
+/*3*/
+.JoinContent > div:nth-child(2) > .wrapper > ul > li:nth-child(4){
+	color:#a01f30;
+}
+ /*con1 결제완료문구*/
+.joinCon1.con{
+	margin-top:30px;
+	margin-bottom:55px;
+ }
+.joinCon1 > .wrapper{
+	text-align:center;
+ }
+ .joinCon1 > .wrapper > i{
+	font-size:45px;
+	color:#222;
+  }
+ .joinCon1 > .wrapper > h2{
+	color:#333;
+	font-size:28px;
+	font-weight:900;
+ }
+.joinCon1 > .wrapper > h2 > span{
+	color:#a01f30;
+ }
+ .joinCon1 > .wrapper > span{
+	color:#7f7f7f;
+	font-size:13px;
+ }
+  .joinCon1 > .wrapper > div {
+	width:244px;
+	height:74px;
+	margin:0 auto;
+	margin-top:30px;
+	text-align:left;
+	line-height:1.5;
+   }
+  .joinCon1 > .wrapper > div > p{
+	color:#333;
+	font-size:15px;
+ }
+ .joinCon1 > .wrapper > div > p > strong{
+	display:inline-block;
+	width:80px;
+	font-weight:900;
+ }
+ .joinCon1 > .wrapper > div > p > span{
+	color:#333;
+	font-size:15px;
+ }
+
+/*btn*/
+.JoinContent > .wrapper > div{
+	margin:30px auto;
+	width:370px;
+	
+}
+/*con2 회원혜택txt*/
+.joinCon2 > .wrapper > ul{
+	border-top:1px solid #d1d1d1;
+	padding:24px;
+ }
+   .joinCon2 > .wrapper > ul > li{
+	height:70px;
+	float:left;
+	padding:15px 61px;
+ }
+    .joinCon2 > .wrapper > ul > li:nth-child(3){
+	border-right:0;
+ }
+  .joinCon2 > .wrapper > ul > li > h6{
+	width:252px;
+	height:20px;
+	font-size:13px;
+	color:#333;
+	line-height:20px;
+	font-weight:900;
+	position:relative;
+ }
+   .joinCon2 > .wrapper > ul > li > h6 > strong{
+	width:40px;
+	height:40px;
+	font-size:25px;
+	color:#a01f30;
+	line-height:25px;
+	font-weight:900;
+	position:absolute;
+	top:-6px;
+	left:-26px;
+ }
+   .joinCon2 > .wrapper > ul > li > p{
+	width:252px;
+	height:68px;
+	font-size:12px;
+	color:#555;
+	line-height:1.5;
+ }

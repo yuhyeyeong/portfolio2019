@@ -1,0 +1,211 @@
+@charset 'utf-8';
+
+
+
+
+/*title*/
+.infoTitle{
+	height:30px;
+	width:1170px;
+	line-height:30px;
+	padding:10px 0;
+	color:#333;
+	font-size:12px;
+}
+.infoTitle > strong{
+	font-size:22px;
+	margin-right:15px;
+	color:#222;
+	font-weight:900;
+}
+.infoTitle > span{
+	vertical-align:top;
+}
+
+
+.infoinput{
+	height:34px;
+	border-radius:5px;
+	border:1px solid #c5c5c5;
+	padding:0 10px;
+	margin-right:4px;
+	font-size:13px;
+	color:#999;
+}
+
+
+.infobtn7f{
+	background:#7f7f7f;
+	display:inline-block;
+	width:80px;
+	height:36px;
+	border-radius:5px;
+	text-align:center;
+	line-height:36px;
+	color:#fff;
+	font-weight:600;
+	font-size:13px;
+	padding:0 8px;
+}
+
+/*content*/
+.InfoContent{
+	width:100%;
+	margin-bottom:130px;
+}
+/*카테고리경로*/
+.InfoContent > .location{
+	width:100%;
+}
+.InfoContent > .location > .wrapper > ul{
+	float:right;
+	font-size:13px;
+}
+.InfoContent > .location > .wrapper > ul > li{
+	float:left;
+	margin-right:10px;
+	height:40px;
+	line-height:40px;
+	color:#999;
+}
+.InfoContent > .location > .wrapper > ul > li:nth-child(2){
+	margin-right:0px;
+}
+.InfoContent > .location > .wrapper > ul > li > a{
+	padding-right:10px;
+	color:#555;
+} 
+.InfoContent > .location > .wrapper > ul > li:nth-child(2) > a{
+	font-weight:900;
+} 
+/*상단*/
+.InfoContent > div:nth-child(2){
+	width:100%;
+	margin-top:20px;
+}
+.InfoContent > div:nth-child(2) > .wrapper > ul{
+	width:1170px;
+	height:75px;
+	background-image:url('../img/order/order_title.png');
+}
+.InfoContent > div:nth-child(2) > .wrapper > ul > li{
+	width:200px;
+	height:67px;
+	float:left;
+	padding-left:40px;
+	text-align:center;
+	padding-top:8px;
+	font-size:15px;
+	color:#7f7f7f;
+	font-weight:600;
+}
+/*1*/
+.InfoContent > div:nth-child(2) > .wrapper > ul > li:nth-child(1){
+	width:422px;
+	text-align:left;
+	line-height:75px;
+	font-size:26px;
+	color:#fff;
+	font-weight:600;
+	padding-top:0;
+	height:75px;
+	padding-left:28px;
+}
+.InfoContent > div:nth-child(2) > .wrapper > ul > li:nth-child(1) > i{
+	margin-right:6px;
+	font-size:32px;
+}
+/*2 3 4*/
+.InfoContent > div:nth-child(2) > .wrapper > ul > li > strong{
+	display:block;
+	font-size:32px;
+	font-weight:900;
+}
+/*3*/
+.InfoContent > div:nth-child(2) > .wrapper > ul > li:nth-child(3){
+	color:#a01f30;
+}
+/*con1 주문상품*/
+/*con1 주문상품_content*/
+.infoCon1 > .wrapper > ul > li{
+	font-size:14px;
+}
+
+/*줄의 칸*/
+.infoCon1 > .wrapper > ul > li > ul > li{
+	float:left;
+	line-height:40px;
+	width:148px;
+	padding:10px 0;
+}
+/*줄의 1칸*/
+.infoCon1 > .wrapper > ul > li > ul > li:nth-child(1){
+	width:148px;
+	font-size:14px;
+	font-weight:900;
+	color:#333;
+}
+/*줄의 2칸*/
+.infoCon1 > .wrapper > ul > li > ul > li:nth-child(2){
+	width:1022px;
+	color:#555;
+}
+.infoCon1 > .wrapper > ul > li > ul > li:nth-child(2) > span{
+	font-size:12px;
+}
+.infoCon1 > .wrapper > ul > li > ul > li:nth-child(2) > ul {
+	background:#444;
+	display:inline-block;
+	vertical-align:middle;
+}
+.infoCon1 > .wrapper > ul > li > ul > li:nth-child(2) > ul > li{
+	float:left;
+}
+.infoCon1 > .wrapper > ul > li > ul > li:nth-child(2) > ul > li > a{
+	width:33px;
+	height:33px;
+	background:#fff;
+	display:block;
+	text-align:center;
+	line-height:34px;
+	font-weight:900;
+	border:1px solid #ddd;
+	font-size:14px;
+}
+.infoCon1 > .wrapper > ul > li > ul > li:nth-child(2) > ul > li > a.active{
+	background:#333;
+	border:1px solid #333;
+	color:#fff;
+}
+/*6줄*/
+.infoCon1 > .wrapper > ul > li:nth-child(6) > ul > li{
+	padding-bottom:0px;
+}
+.infoCon1 > .wrapper > ul > li:nth-child(6) > ul > li:nth-child(1){
+	line-height:75px;
+}
+/*7줄 1칸*/
+.infoCon1 > .wrapper > ul > li:nth-child(7) > ul > li:nth-child(1){
+	line-height:120px;
+}
+/*6줄*/
+.infoCon1 > .wrapper > ul > li:nth-child(8){
+	border:0;
+}
+.infoCon1 > .wrapper > ul > li:nth-child(8) > ul > li{
+	padding-bottom:0px;
+}
+.infoCon1 > .wrapper > ul > li:nth-child(8) > ul > li:nth-child(1){
+	line-height:75px;
+}
+/*error에러*/
+span.error{
+	color:red;
+	display:none;
+}
+/*button*/
+form .infobutton{
+	width:348px;
+	margin:0 auto;
+	margin-top:60px;
+}

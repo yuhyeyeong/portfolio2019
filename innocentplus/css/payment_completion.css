@@ -1,0 +1,210 @@
+@charset 'utf-8';
+.title{
+	height:30px;
+	width:1170px;
+	line-height:30px;
+	padding:10px 0;
+	color:#333;
+	font-size:12px;
+}
+.title > strong{
+	font-size:22px;
+	margin-right:15px;
+	color:#222;
+}
+.title > span{
+	vertical-align:top;
+}
+
+
+
+/*content*/
+.comContent{
+	width:100%;
+	margin-bottom:130px;
+}
+/*카테고리경로*/
+.comContent > .location{
+	width:100%;
+}
+.comContent > .location > .wrapper > ul{
+	float:right;
+	font-size:13px;
+}
+.comContent > .location > .wrapper > ul > li{
+	float:left;
+	margin-right:10px;
+	height:40px;
+	line-height:40px;
+	color:#999;
+}
+.comContent > .location > .wrapper > ul > li:nth-child(2){
+	margin-right:0px;
+}
+.comContent > .location > .wrapper > ul > li > a{
+	padding-right:10px;
+	color:#555;
+} 
+.comContent > .location > .wrapper > ul > li:nth-child(2) > a{
+	font-weight:900;
+} 
+/*상단*/
+.comContent > div:nth-child(2){
+	width:100%;
+	margin-top:20px;
+}
+.comContent > div:nth-child(2) > .wrapper > ul{
+	width:1170px;
+	height:75px;
+	background-image:url('../img/payment_completion/paymentCompletion_title.png');
+}
+.comContent > div:nth-child(2) > .wrapper > ul > li{
+	width:200px;
+	height:67px;
+	float:left;
+	padding-left:40px;
+	text-align:center;
+	padding-top:8px;
+	font-size:15px;
+	color:#7f7f7f;
+	font-weight:600;
+}
+/*1*/
+.comContent > div:nth-child(2) > .wrapper > ul > li:nth-child(1){
+	width:422px;
+	text-align:left;
+	font-size:26px;
+	color:#fff;
+	font-weight:600;
+	padding-top:22px;
+	height:75px;
+	padding-left:28px;
+}
+.comContent > div:nth-child(2) > .wrapper > ul > li:nth-child(1) > i{
+	display:inline-block;
+	width:32px;
+	height:32px;
+	padding-top:0px;
+	margin-right:10px;
+}
+.comContent > div:nth-child(2) > .wrapper > ul > li:nth-child(1) > span{
+	display:inline-block;
+	vertical-align:top;
+}
+/*2 3 4*/
+.comContent > div:nth-child(2) > .wrapper > ul > li > strong{
+	display:block;
+	font-size:32px;
+	font-weight:900;
+}
+/*3*/
+.comContent > div:nth-child(2) > .wrapper > ul > li:nth-child(4){
+	color:#a01f30;
+}
+ /*con1 결제완료문구*/
+.paymentCon1.con{
+	margin-top:30px;
+	margin-bottom:55px;
+ }
+.paymentCon1 > .wrapper{
+	text-align:center;
+ }
+ .paymentCon1 > .wrapper > h2{
+	color:#333;
+	font-size:28px;
+	font-weight:900;
+ }
+.paymentCon1 > .wrapper > h2 > span{
+	color:#a01f30;
+ }
+ .paymentCon1 > .wrapper > span{
+	color:#7f7f7f;
+	font-size:13px;
+ }
+  .paymentCon1 > .wrapper > p{
+	color:#333;
+	font-size:15px;
+ }
+
+/*con2결제정보*/
+.paymentCon2 > .wrapper > ul > li{
+	width:1170px;
+	color:#333;
+	font-weight:900;
+}
+.paymentCon2 > .wrapper > ul > li:nth-child(1){
+	height:48px;
+	border-bottom:2px solid #eee;
+	font-weight:600;
+	background:#f5f4f4;
+	line-height:31px;
+	font-weight:900;
+}
+.paymentCon2 > .wrapper > ul > li > ul > li{
+	float:left;
+	width:305px;
+	padding:35px 30px;
+	padding-left:25px;
+	border-right:2px solid #eee;
+	text-align:right;
+	font-size:20px;
+	position:relative;
+}
+.paymentCon2 > .wrapper > ul > li > ul > li > span{
+	font-size:28px;
+}
+.paymentCon2 > .wrapper > ul > li > ul > li > span:nth-child(2){
+	font-size:23px;
+	width:30px;
+	height:30px;
+	display:block;
+	border:2px solid #eee;
+	text-align:center;
+	border-radius:5px;
+	line-height:30px;
+	color:#7f7f7f;
+	position:absolute;
+	top:34px;
+	right:-17px;
+	background:#fff;
+}
+.paymentCon2 > .wrapper > ul > li:nth-child(1) > ul > li{
+	padding:10px 30px;
+	padding-left:25px;
+	text-align:left;
+	font-size:16px;
+}
+.paymentCon2 > .wrapper > ul > li > ul > li:nth-child(3){
+	width:386px;
+	border:0;
+}
+/*con3*/
+.paymentCon3.con{
+	margin-top:80px;
+}
+.paymentCon3 > .wrapper > div{
+	border:1px solid #d9d9d9;
+	padding:20px;
+}
+.paymentCon3 > .wrapper > div{
+	font-size:12px;
+	line-height:18px;
+	color:#333;
+}
+.paymentCon3 > .wrapper > div > h4{
+	font-size:14px;
+	color:#222;
+}
+/*btn*/
+.comContent > .wrapper > div{
+	margin:40px auto;
+	width:426px;
+}
+/*footer*/
+#footer{
+	width:100%;
+	background:#222;
+}
+#footer > div{
+	width:100%;
+}
