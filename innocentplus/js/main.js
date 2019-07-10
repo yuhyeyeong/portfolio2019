@@ -40,8 +40,8 @@ $('.slide').bxSlider({
 
 //1단배너
 $('.banner1').bxSlider({
-  infiniteLoop: true,
-  hideControlOnEnd: true,
+	infiniteLoop: true,
+	hideControlOnEnd: true,
 	auto: true,
 	speed:1300,
 	autoDelay:500,
@@ -66,8 +66,8 @@ $tabCons.hide();
 $($(this).find('a').attr('href')).show();
 });
 //best TabShadow
-var $tabList = $('.tabCon');	
-var $shadowBox = $('.tabCon > a > div');
+var $tabList = $('.main .tabCon');	
+var $shadowBox = $('.main .tabCon > a > div');
 
 $tabList.on('mouseover',function(){
 	$(this).find('a').addClass('shadow');

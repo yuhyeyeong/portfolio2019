@@ -667,3 +667,417 @@ ul:after{
 .ht28{
 	height:28px;
 }
+
+
+/*
+	header
+*/
+#header{
+	width:100%;
+}
+/*LNB*/
+#header > .nav1{
+	width:100%;
+	background:#a01f31;
+}
+.nav1 > .wrapper{
+	height:36px;
+}
+.nav1 > .wrapper > ul{
+	height:36px;
+}
+.nav1 > .wrapper > ul > li{
+	float:left;
+}
+.nav1 > .wrapper > ul > li > a{
+	display:block;
+	height:36px;
+	margin-left:5px;
+	padding:0 10px;
+	line-height:36px;
+	color:#fff;
+	font-size:12px;
+}
+.nav1 > .wrapper > ul > li:nth-child(1) > a{
+	margin-left:0;
+}
+
+/*LNB_left*/
+.nav1 > .wrapper > ul:nth-child(1){
+	float:left;
+}
+/*LNB_right*/
+.nav1 > .wrapper > ul:nth-child(2){
+	float:right;
+}
+
+/*mainHeader*/
+#header > .mainHeader{
+	width:100%;
+}
+/*LOGO*/
+.mainHeader > .wrapper > h1{
+	width:240px;
+	padding:20px 0;
+	margin:0 auto;
+}
+.mainHeader > .wrapper > h1 > a{
+	display:block;
+	width:240px;
+	height:74px;
+}
+/*searchBar*/
+.searchBar{
+	width:260px;
+	height:36px;
+	position:absolute;
+	top:39px;
+	right:0;
+	border:1px solid #cacaca;
+	border-radius:5px;
+	overflow:hidden;
+}
+/*input감싸고있는애*/
+.searchBar > div{
+	position:relative;
+}
+.searchBar > div > input{
+	width:223px;
+	height:36px;
+	border:0px;
+	padding:0px 15px;
+}
+/*searchBar_icon*/
+.searchBar > div > div {
+	width:18px;
+	height:18px;
+	position:absolute;
+	top:0px;
+	right:18px;
+
+}
+.searchBar> div button{
+	border:0px;
+	font-size:18px;
+	width:36px;
+	height:36px;
+	padding-bottom:1px;
+	background:#fff;
+}
+/*GNB*/
+#header > .nav2{
+	width:100%;
+	border-top:1px solid #eee;
+	border-bottom:1px solid #eee;
+	background:#fff;
+}
+/*GNB*/
+#header > .nav2 .wrapper{
+	position:relative;
+	z-index:9999;
+	
+}
+/*1depth*/
+.nav2 > .wrapper > ul{
+	float:left;
+}
+.nav2 > .wrapper > ul > li{
+	float:left;
+	position:relative;
+}
+.nav2 > .wrapper > ul > li > a{
+	display:block;
+	margin:0 5px;
+	height:47px;
+	line-height:48px;
+	font-size:13px;
+	text-align:center;
+	width:113px;
+	border-bottom:1px solid #fff;
+}
+/*카테고리*/
+/*nth-child(1) 전체*/
+/*all*/
+/*제목*/
+/*1depth*/
+.nav2 > .wrapper > .all > li > a{
+	font-size:20px;
+	width:45px;
+	margin-left:0;
+	margin-right:13px;
+	padding-top:13px;
+	height:34px;
+	line-height:0;
+}
+/*2depth*/
+.all > li > ul{
+	width:1140px;
+	height:420px;
+	background:#fff;
+	padding:15px;
+	position:absolute;
+	top:48px;
+	left:0;
+	font-size:13px;
+	display:none;
+	border:1px solid #eee;
+	border-top:0;
+}
+
+.all > li > ul > li{
+	width:220px;
+	height:210px;
+	background:#fff;
+	float:left;
+	margin-right:10px;
+	border:0px;
+}
+.all> li > ul > li:nth-child(5){
+	margin:0;
+}
+.all > li > ul > li > a{
+	width:220px;
+	height:28px;
+	font-size:15px;
+	padding:10px 0;
+	text-align:left;
+	line-height:30px;
+	border-bottom:1px solid #eee;
+	font-weight:bold;
+	color:#666;
+	display:block;
+	background:#fff;
+	transition:all 0.3s;
+}
+.all > li > ul > li > a:hover{
+	color:#a10f31;
+}
+/*소메뉴 */
+.all > li > ul > li > ul{
+	padding-top:10px;
+}
+/*소메뉴리스트*/
+.all > li > ul > li > ul > li{
+	line-height:21px;
+}
+.all > li > ul > li > ul > li > a{
+	color:#666;
+}
+/*hover*/
+.all > li > ul > li > ul > li:hover a{
+	color:#111;
+	text-decoration:underline;
+}
+.all > li > ul > li:hover > a{
+	background:#fff;
+	color:#a10f31;
+}
+/*all:hover*/
+.all > li:hover .sub{
+	display:block;
+}
+
+/*공통가구카테고리*/
+.nav2 > .wrapper > .gnb > li:nth-child(9) > a{
+	margin-right:10px;
+}
+.nav2 > .wrapper > ul > li:hover > a{
+	color:#a01f31;
+	font-weight:bold;
+}
+
+/*2depth*/
+.gnb .sub{
+	position:absolute;
+	top:48px;
+	left:0;
+	font-size:13px;
+	display:none;
+	border:1px solid #eee;
+	border-top:0;
+}
+
+.gnb .sub > li > a{
+	display:block;
+	width:120px;
+	height:40px;
+	background:#fff;
+	line-height:40px;
+	text-align:center;
+	color:#666;
+	transition:all 0.3s;
+}
+/*hover*/
+.sub > li:hover > a{
+	font-weight:bold;
+}
+.gnb > li:hover .sub{
+	display:block;
+}
+/*fixed*/
+.sticky{
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:9999;
+}
+.sticky2{
+	position:fixed;
+	top:36px;
+	left:0;
+	z-index:9998;
+}
+
+/*
+	footer
+*/
+#footer{
+	width:100%;
+	background:#222;
+}
+#footer > div{
+	width:100%;
+}
+/*footerNav*/
+#footer > div:nth-child(1){
+	background:#cacaca;
+}
+#footer > div:nth-child(1) > .wrapper > ul > li{
+	float:left;
+}
+#footer > div:nth-child(1) > .wrapper > ul > li a{
+	height:50px;
+	padding:0 25px;
+	display:block;
+	line-height:50px;
+	font-size:13px;
+}
+#footer > div:nth-child(1) > .wrapper > ul > li:nth-child(1) a{
+	padding-left:0;
+}
+#footer > div:nth-child(1) > .wrapper > ul > li:nth-child(3) a{
+	font-weight:900;
+}
+/*footerCon*/
+#footer > div:nth-child(2){
+	background:#222;
+}
+#footer > div:nth-child(2) > .wrapper{
+	padding-top:34px;
+	height:140px;
+}
+
+#footer > div:nth-child(2) > .wrapper > div{
+	height:106px;
+}
+#footer > div:nth-child(2) > .wrapper > div > div{
+	float:left;
+}
+/*logo*/
+/*영역*/
+#footer > div:nth-child(2) > .wrapper > div > div:nth-child(1){
+	width:174px;
+	height:106px;
+}
+/*로고*/
+#footer > div:nth-child(2) > .wrapper  > div > div:nth-child(1) > h1{
+	width:150px;
+	height:45px;
+}
+
+/*txt*/
+/*영역*/
+#footer > div:nth-child(2) > .wrapper > div  > div:nth-child(2){
+	width:720px;
+	height:106px;
+}
+/*본문*/
+#footer > div:nth-child(2) > .wrapper > div  > div:nth-child(2) > p{
+	width:700px;
+	height:106px;
+	color:#cacaca;
+	font-size:13px;
+	line-height:1.6;
+}
+/*sns*/
+/*영역*/
+#footer > div:nth-child(2) > .wrapper > div > div:nth-child(3){
+	width:276px;
+	height:106px;
+}
+
+/*1*/
+
+#footer > div:nth-child(2) > .wrapper > div > div:nth-child(3) > div:nth-child(1){
+	width:276px;
+	height:45px;
+	padding-top:8px;
+}
+#footer > div:nth-child(2) > .wrapper > div > div:nth-child(3) > div:nth-child(1) > div {
+	float:left;
+}
+/*input*/
+#footer > div:nth-child(2) > .wrapper > div > div:nth-child(3) > div:nth-child(1) > div:nth-child(1){
+	width:218px;
+	height:36px;
+	background:#fff;
+	margin-right:4px;
+	border-radius:5px;
+	
+}
+#footer > div:nth-child(2) > .wrapper > div > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) input{
+	width:218px;
+	height:36px;
+	background:#fff;
+	border-radius:5px;
+	border:0;
+	text-align:left;
+	padding-left:10px;
+	font-family:'roboto';
+	color:#555;
+}
+/*btn*/
+#footer > div:nth-child(2) > .wrapper > div > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) a{
+	width:54px;
+	height:36px;
+	background:#d1d1d1;
+	display:block;
+	border-radius:5px;
+	text-align:center;
+	line-height:36px;
+	font-size:14px;
+	font-weight:bold;
+}
+/*2*/
+#footer > div:nth-child(2) > .wrapper > div > div:nth-child(3) > div:nth-child(2){
+	width:276px;
+	height:53px;
+}
+#footer > div:nth-child(2) > .wrapper > div > div:nth-child(3) > div:nth-child(2) > div{
+	float:left;
+}
+/*img*/
+#footer > div:nth-child(2) > .wrapper > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(1){
+	width:130px;
+	height:53px;
+}
+/*sns_icon영역*/
+#footer > div:nth-child(2) > .wrapper > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(2){
+	width:126px;
+	height:32px;
+	padding:10px 0px 10px 14px;
+}
+/*sns_icon*/
+#footer > div:nth-child(2) > .wrapper > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul{
+	width:126px;
+	height:32px;
+}
+#footer > div:nth-child(2) > .wrapper > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul > li{
+	width:30px;
+	height:30px;
+	float:left;	
+	margin-right:15px;
+}
+#footer > div:nth-child(2) > .wrapper > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul > li:nth-child(3){
+	margin-right:0;
+}

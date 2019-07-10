@@ -64,7 +64,7 @@ setInterval(function(){
 },2300);
 //최근주문내역
 //상품명
-$('#con1').find('.prodeuct').on('mouseover',function(){
+$('.mypage #con1').find('.prodeuct').on('mouseover',function(){
 	$(this).css({'text-decoration':'underline','opacity':'1'});
 }).on('mouseout',function(){
 	$(this).css({'text-decoration':'none','opacity':'0.9'});

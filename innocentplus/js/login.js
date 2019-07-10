@@ -1,8 +1,8 @@
 $(function(){
 
 //tab
-var $tabBtn = $('.tabBtn').find('li');
-var $tabCon = $('.tabCon').find('div');
+var $tabBtn = $('.log .tabBtn').find('li');
+var $tabCon = $('.log .tabCon').find('div');
 $tabBtn.find('a').eq(0).addClass('active');
 $tabCon.hide();
 $tabCon.eq(0).show();
