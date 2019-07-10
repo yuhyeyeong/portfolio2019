@@ -7,6 +7,7 @@
 	header .wrapper{ width: 94%; }
 
 	/* sub portfolio */
+	.sub_cont h2 { font-size: 4rem;}
 	.sub_cont .list > li a .inner h3{ margin-top: 30%; }
 }
 @media screen and (max-width:1024px){
