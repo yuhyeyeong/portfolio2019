@@ -1,4 +1,14 @@
 @charset 'utf-8';
+/* order공통 */
+.order .ulStyle > li > ul{
+	display: table;
+	width: 100%;
+}
+.order .ulStyle > li > ul .labelOrder, .order .ulStyle > li > ul .cons{
+	display: table-cell;
+	float: none;
+	vertical-align: middle;
+}
 
 .OrderpayBtn{
 	width:328px;
@@ -137,6 +147,7 @@
 	width:148px;
 	text-align:center;
 	border-right:2px solid #eee;
+	box-sizing:border-box;
 }
 /*줄의 1칸*/
 .orderCon1 > .wrapper > ul > li > ul > li:nth-child(1){
@@ -305,12 +316,12 @@
 .orderCon5 > .wrapper > .ulStyle> li:nth-child(2) > ul > li:nth-child(1) > p > span{
 	text-align:left;
 	display:inline-block;
-	width:100px;
+	width: 30%;
 }
 .orderCon5 > .wrapper > .ulStyle> li:nth-child(2) > ul > li:nth-child(1) > p > strong{
 	text-align:right;
 	display:inline-block;
-	width:230px;
+	width: 68%;
 	font-weight:900;
 }
 .orderCon5 > .wrapper > .ulStyle> li:nth-child(2) > ul > li:nth-child(2){

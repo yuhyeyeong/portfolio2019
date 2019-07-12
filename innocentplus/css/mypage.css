@@ -123,6 +123,8 @@
 .mypage .empty{
 	border-top:2px solid #333;
 	border-bottom:2px solid #979797;
+	padding-top: 0;
+	height: auto;
 }
 /*empty_content*/
 .mypage .empty > li{
@@ -613,8 +615,13 @@
 	border-bottom:2px solid #979797;
 }
 /*칸*/
+.mypage .tabCon > li > ul > li > ul{
+	display: table;
+	width: 100%;
+}
 .mypage .tabCon > li > ul > li > ul > li{
-	float:left;
+	display: table-cell;
+	vertical-align: middle;
 }
 /*tabCon1 1줄1칸-제목*/
 .mypage #tabCon1 > ul > li:nth-child(1) > ul > li:nth-child(1){

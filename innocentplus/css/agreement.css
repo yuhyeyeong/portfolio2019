@@ -20,8 +20,6 @@
 	vertical-align:top;
 }
 
-
-
 /*content*/
 .agreeContent{
 	width:100%;
@@ -105,7 +103,7 @@
 	width:1128px;
 	border:1px solid #d1d1d1;
 	height:326px;
-	overflow:scroll;
+	overflow-y:scroll;
 	color:#333;
 	font-size:12px;
 	padding:20px;

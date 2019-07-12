@@ -341,6 +341,7 @@ ul:after{
 }
 .ulStyle2{
 	width:1170px;
+	max-width: 100%;
 	border-top:2px solid #333;
 	border-bottom:2px solid #979797;
 }
@@ -379,6 +380,7 @@ ul:after{
 	padding:0 10px;
 	margin-right:4px;
 	font-size:13px;
+	box-sizing: border-box;
 }
 .inputBig{
 	height:63px;
@@ -613,7 +615,7 @@ ul:after{
 }
 /*width_DubbleLong*/
 .wtDLL{
-	width:636px;
+	width:632px;
 }
 /*width_DubbleLong*/
 .wtDL{
