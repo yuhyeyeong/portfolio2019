@@ -1,0 +1,213 @@
+@charset 'utf-8';
+@import url('https://fonts.fonts.googleapis.com/earlyaccess/notosanskr.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+/*초기화*/
+*{
+	padding:0;
+	margin:0;
+}
+img{
+	width:100%;
+	height:auto;
+	vertical-align:top;
+	border:0;
+}
+ul,ol,li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	color:#232323;
+}
+body{
+	background:#eee;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+/*float해제*/
+ul:after{
+	content:'';
+	height:0;
+	clear:both;
+	display:block;
+}
+.wrapper:after{
+	content:'';
+	height:0;
+	clear:both;
+	display:block;
+}
+.clearfix:after{
+	content:'';
+	height:0;
+	clear:both;
+	display:block;
+}
+/*공통*/
+.wrapper{
+	width:95%;
+	margin:0 auto;
+	position:relative;
+}
+
+
+section{
+	box-shadow:1px 1px 15px rgba(0,0,0,0.05);
+}
+/*title*/
+.title{
+	width:100%;
+	background:#fff;
+	padding:10px 0;
+}
+.title h2{
+	font-size:16px;
+	font-weight:500;
+	font-family:'roboto';
+	float:left;
+}
+.title .more{
+	float:right;
+	font-size:13px;
+	color:#888;
+}
+.title .more i{
+	margin-left:5px;
+	font-size:16px;
+}
+.bestLabel{
+	width:28px;
+	height:28px;
+	display:block;
+	background:#af192d;
+	text-align:center;
+	line-height:28px;
+	color:#fff;
+	position:absolute;
+	top:0;
+	left:0;
+	font-size:17px;
+	font-weight:600;
+	letter-spacing:-1px;
+}
+.topMenu{
+	width:100%;
+}
+.topMenu > li {
+	float:left;
+	width:16.6666% ;
+}
+.topMenu > li > a{
+	background:#fff;
+	display:block;
+	width:100%;
+	text-align:center;
+	font-size:11px;
+	border-bottom:1px solid #ddd;
+	border-right:1px solid #ddd;
+	box-sizing:border-box;
+	padding-bottom:10px;
+}
+
+/*iconImg*/
+.topMenu > li > a > p{
+	padding-top:13px;
+	width:34%;
+	margin:0 auto;
+	margin-bottom:2px;
+}
+/*text*/
+.topMenu > li > a > span{
+	color:#333;
+	display:block;
+}
+/*text*/
+.topMenu > li > a.on > span{
+	color:#a01f31;
+	font-weight:600;
+}
+/*section.list*/
+section.list{
+	margin-bottom:15px;
+}
+section.list > ul{
+	width:100%;
+	background:#fff;
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+}
+section.list > ul > li{
+	float:left;
+	width:50%;
+	border-left:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	box-sizing:border-box;
+	padding:10px 0;
+	position:relative;
+}
+section.list > ul > li:nth-child(2n+1){
+	border-right:0;
+}
+section.list > ul > li > a{
+	width:90%;
+	margin:0 auto;
+	display:block;
+	font-size:13px;
+	position:relative;
+}
+/*상품명*/
+section.list > ul > li > a > span{
+	font-size:13px;
+	line-height:15px;
+	display:block;
+	margin-top:5px;
+	margin-bottom:10px;
+	color:#444;
+	height:32px;
+}
+/*가격*/
+section.list > ul > li > a > strong{
+	font-size:15px;
+	display:inline-block;
+	color:#cc050d;
+	font-weight:600;
+}
+section.list > ul > li > a > strong > span{
+	font-size:16px;
+	color:#222;
+	margin-left:5px;
+	font-weight:900;
+}
+/*하트아이콘*/
+section.list > ul > li > a:nth-child(2){
+	position:absolute;
+	bottom:15px;
+	right:9px;
+	display:block;
+	width:17px;
+	height:17px;
+	font-size:17px;
+	color:#c5c5c5;
+}
+.btn{
+	width:100%;
+	border:1px solid #a01f31;
+	height:40px;
+	text-align:center;
+	display:block;
+	line-height:40px;
+	font-weight:600;
+	font-size:14px;
+	color:#a01f31;
+}
+.btn > i{
+	margin-left:5px;
+}
+.whiteBtn{
+	display:inline-block;
+	font-size:12px;
+	font-weight:300;
+	background:#fff;
+	border:1px solid #ddd;
+	padding:5px;
+	
+}

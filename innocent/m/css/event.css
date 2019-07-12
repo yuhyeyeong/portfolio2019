@@ -1,0 +1,9 @@
+.eventCon > ul > li > a{
+	width:100%;
+	display:block;
+	margin-bottom:8px;
+	box-shadow:1px 1px 15px rgba(0,0,0,0.1);
+}
+.eventCon > ul > li:nth-child(11) > a{
+	margin-bottom:28px;
+}

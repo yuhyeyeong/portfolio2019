@@ -1,0 +1,316 @@
+.topTitle{
+	width:100%;
+	background:#fff;
+	text-align:center;
+	line-height:40px;
+	font-size:13px;
+	color:#333;
+}
+.topTitle .wrapper > a{
+	display:block;
+	width:20px;
+	height:20px;
+	padding:10px 0;
+}
+.topTitle .wrapper > a:nth-child(1){
+	float:left;
+}
+.topTitle .wrapper > a:nth-child(2){
+	float:right;
+}
+.detail > section{
+	margin-bottom:8px;
+	background:#fff;
+}
+.detail > section:nth-child(1){
+	font-size:14px;
+	margin-bottom:8px;
+}
+.detail > section:nth-child(1) .wrapper{
+	padding:10px 0;
+}
+/*원가*/
+.detail > section:nth-child(1) .wrapper p:nth-child(3){
+	font-size:14px;
+	color:#999;
+	margin-top:8px;
+}
+/*판매가*/
+.detail > section:nth-child(1) .wrapper p:nth-child(4){
+	color:#222;
+	font-size:13px;
+}
+.detail > section:nth-child(1) .wrapper p:nth-child(4) strong{
+	font-size:19px;
+	color:#cc050d;
+	font-weight:900;
+}
+.detail > section:nth-child(1) .wrapper p:nth-child(4) strong > span{
+	margin-left:5px;
+	color:#222;
+}
+/*별점*/
+.detail > section:nth-child(1) .wrapper ul{
+	position:absolute;
+	bottom:12px;
+	right:0;
+}
+.detail > section:nth-child(1) .wrapper ul > li{
+	float:left;
+	color:#f1bc1a;
+	margin-left:4px;
+}
+.detail > section:nth-child(1) .wrapper ul > li:nth-child(1){
+	margin-left:0;
+}
+.detail > section:nth-child(1) .wrapper ul > li:nth-child(6){
+	color:#888;
+}
+/*2상품추가정보*/
+.detail > section:nth-child(2){
+	padding:5px 0;
+}
+.detail > section:nth-child(2) .wrapper > div > div{
+	float:left;
+	font-size:13px;
+	color:#333;
+	padding:3px 0;
+}
+.detail > section:nth-child(2) .wrapper > div > div:nth-child(1){
+	font-weight:600;
+	width:25%;
+}
+.detail > section:nth-child(2) .wrapper > div > div:nth-child(2){
+	width:75%;
+}
+.detail > section:nth-child(2) .wrapper > div > div:nth-child(2) > span{
+	color:#999;
+	font-size:12px;
+}
+.line{
+	width:100%;
+	height:1px;
+	background:#eee;
+	margin:7px 0;
+}
+.grayBtn{
+	display:inline-block;
+	border:1px solid #ddd;
+	background:#eee;
+	border-radius:15px;
+	font-size:11px;
+	padding:3px 5px;
+	margin-left:8px;
+	text-align:center;
+	color:#444;
+}
+/*3 상세정보들*/
+/*detailTabBtn*/
+.detailTabBtn > a{
+	display:block;
+	width:25%;
+	float:left;
+	text-align:center;
+	font-size:13px;
+	height:50px;
+	padding:17px 0;
+	border-right:1px solid #ddd;
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #222;
+	box-sizing:border-box;
+	font-weight:600;
+	background:#f0f0f0;
+	color:#333;
+}
+.detailTabBtn > a:nth-child(2){
+	padding:12px 0;
+	line-height:15px;
+}
+.detailTabBtn > a:nth-child(3){
+	padding:12px 0;
+	line-height:15px;
+}
+.detailTabBtn > a.on{
+	border:1px solid #222;
+	border-bottom:1px solid #fff;
+	background:#fff;
+}
+.detailTabBtn > a > p{
+	font-size:11px;
+	font-weight:300;
+	color:#888;
+}
+/*tabCon*/
+/*tabCon1 상품설명*/
+.detailTabCon > div{
+	padding:10px 0;
+}
+.detailTabCon > div:nth-child(1){
+	display:block;
+}
+.detailTabCon > div:nth-child(n+2){
+	display:none;
+}
+/*설명*/
+#detailTabCon1 > .wrapper > div:nth-of-type(1){
+	background:#ededed;
+	font-size:12px;
+	color:#777;
+	padding:10px;
+	margin:10px 0;
+	margin-bottom:15px;
+	line-height:14px;
+}
+/*배너*/
+#detailTabCon1 > .wrapper > div:nth-of-type(2){
+	margin-bottom:15px;
+}
+/*본내용 상세페이지*/
+#detailTabCon1 > .wrapper > div:nth-of-type(3) > img:nth-child(1){
+	margin-bottom:15px;
+}
+
+/*카테고리베스트*/
+.detail section:nth-child(4){
+	margin-bottom:25px;
+}
+.detail section:nth-child(4) .wrapper > h3{
+	font-size:15px;
+	padding:8px 0;
+}
+.detail section:nth-child(4) .wrapper ul > li{
+	float:left;
+	width:50%;
+}
+.detail section:nth-child(4) .wrapper ul > li > a{
+	display:block;
+	padding:5px;
+}
+.detail section:nth-child(4) .wrapper ul > li:nth-child(1) > a{
+	padding-left:0;
+}
+.detail section:nth-child(4) .wrapper ul > li:nth-child(2) > a{
+	padding-right:0;
+}
+/*img*/
+.detail section:nth-child(4) .wrapper ul > li > a > p:nth-child(1){
+	width:100%;
+}
+/*text*/
+.detail section:nth-child(4) .wrapper ul > li > a > p:nth-child(2){
+	width:100%;
+	font-size:13px;
+	padding:10px 0;
+}
+.detail section:nth-child(4) .wrapper ul > li > a > p:nth-child(2) > span{
+	display:block;
+	color:#555;
+}
+.detail section:nth-child(4) .wrapper ul > li > a > p:nth-child(2) > span:nth-child(2){
+	margin-top:12px;
+}
+.detail section:nth-child(4) .wrapper ul > li > a > p:nth-child(2) > span:nth-child(2) > strong{
+	font-size:16px;
+	color:#222;
+}
+/*버튼*/
+.fixedBar{
+	width:100%;
+	position:fixed;
+	bottom:0;
+	left:0;
+}
+.fixedBar > div:nth-child(1){
+	position:relative;
+	z-index:999;
+	border-top:1px solid #bbb;
+	padding:10px 0;
+	background:#fff;
+}
+.fixedBar a{
+	height:40px;
+	display:block;
+	float:left;
+	text-align:center;
+	line-height:40px;
+	box-sizing:border-box;
+	font-size:18px;
+}
+.fixedBar .heartBtn{
+	width:40px;
+	border:1px solid #ddd;
+	box-sizing:border-box;
+	color:#888;
+}
+.fixedBar .shoppingCartBtn{
+	width:40%;
+	border:1px solid #a01f31;
+	box-sizing:border-box;
+	color:#a01f31;
+	font-size:14px;
+	font-weight:600;
+}
+.fixedBar .payBtn{
+	width:calc(98% - 40px);
+	margin-left:2%;
+	border:0;
+	background:#a01f31;
+	color:#fff;
+	font-size:14px;
+	font-weight:600;
+}
+.fixedBar .payBtn2{
+	width:58%;
+	margin-left:2%;
+	border:0;
+	background:#a01f31;
+	color:#fff;
+	font-size:14px;
+	font-weight:600;
+}
+.fixedBar > div > .wrapper > a:nth-child(2) > i{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	line-height:40px;
+	padding-top:10px;
+	vertical-align:top;
+	margin-right:2%;
+	display:inline-block;
+}
+.detail .fixedBarCon{
+	padding:10px 0;
+	width:100%;
+	box-shadow:-5px -5px 15px rgba(0,0,0,0.1);
+	background:#fff;	
+	position:absolute; 
+	bottom:-150px;/*61px*/
+	left:0; 
+	z-index:998;
+}
+.detail .fixedBarCon select{
+	width:100%;
+	border:1px solid #bebebe;
+	height:40px;
+	padding:5px 0;
+	line-height:40px;
+	font-size:13px;
+	color:#666;
+	padding-left:5px;
+}
+.fixedBarCon > .wrapper > div{
+	width:100%;
+	margin:10px 0;
+	margin-bottom:0px;
+}
+.fixedBarCon > .wrapper > div:nth-of-type(2){
+	width:100%;
+	text-align:right;
+	font-size:13px;
+	font-weight:600;
+	color:#cc050d;
+	margin-bottom:5px;
+}
+.fixedBarCon > .wrapper > div:nth-of-type(2) > span{
+	font-size:17px;
+}

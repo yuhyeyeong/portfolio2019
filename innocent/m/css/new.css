@@ -1,0 +1,10 @@
+.topMenu > li:nth-child(n+7){
+	display:none;
+}
+.topMenu{
+	margin-bottom:5px;
+}
+select{
+	border:0;
+	background:#fff;
+}

@@ -1,0 +1,129 @@
+.topMenu > li:nth-child(n+7){
+	display:none;
+}
+.topMenu{
+	margin-bottom:5px;
+}
+select{
+	border:0;
+	background:#fff;
+}
+.best > section:nth-child(2){
+	margin-bottom:18px;
+}
+.best > section:nth-child(2) > div:nth-child(2) {
+	background:#fff;
+}
+.best > section:nth-child(2) > div:nth-child(2) > div{
+	width:100%;
+	padding:10px 0;
+	border-top: 1px solid #ddd;
+	position:relative;
+}
+.best > section:nth-child(2) > div:nth-child(2) > div > a{
+	width:93%;
+	display:block;
+	margin:0 auto;
+}
+.best > section:nth-child(2) > div:nth-child(2) > div > a > div{
+	float:left;
+}
+/*img*/
+.best > section:nth-child(2) > div:nth-child(2) > div > a > div:nth-child(1){
+	width:42%;
+	margin-right:3%;
+	position:relative;
+}
+/*text*/
+.best > section:nth-child(2) > div:nth-child(2) > div > a > div:nth-child(2){
+	width:55%;
+	font-size:14px;
+	height:124px;
+}
+.best > section:nth-child(2) > div:nth-child(2) > div > a > div:nth-child(2) > strong{
+	display:block;
+}
+/*상품명*/
+.best > section:nth-child(2) > div > div > a > div:nth-child(2) > span{
+	display:block;
+	margin-bottom:5%;
+}
+/*원가*/
+.best > section:nth-child(2) > div > div > a > div:nth-child(2) > del{
+	display:block;
+	font-size:13px;
+	color:#999;
+}
+/*가격*/
+.best > section:nth-child(2) > div > div > a > div:nth-child(2) > span:nth-of-type(2){
+	font-size:13px;
+}
+.best > section:nth-child(2) > div > div > a > div:nth-child(2) > span:nth-of-type(2) > strong{
+	font-size:15px;
+	color:#cc050d;
+}
+/*가격(숫자)*/
+.best > section:nth-child(2) > div > div > a > div:nth-child(2) > span:nth-of-type(2) > strong > span{
+	font-size:14px;
+	font-weight:900;
+	color:#222;
+	margin-left:4px;
+}
+/*적립금*/
+.best > section:nth-child(2) > div > div > a > div:nth-child(2) > span:nth-of-type(3){
+	font-size:11px;
+	color:#cc050d;
+}
+/*버튼*/
+.button{
+	width:94%;
+	margin:0 auto;
+	margin-top:3%;
+}
+.button > a{
+	height:40px;
+	display:block;
+	width:40px;
+	float:left;
+	text-align:center;
+	line-height:40px;
+	border:1px solid #ddd;
+	box-sizing:border-box;
+	font-size:18px;
+	color:#888;
+}
+.button > .payBtn{
+	width:calc(98% - 40px);
+	margin-left:2%;
+	border:0;
+	background:#a01f31;
+	color:#fff;
+	font-size:14px;
+	font-weight:600;
+}
+.button > .payBtn > i{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	line-height:40px;
+	padding-top:10px;
+	vertical-align:top;
+	margin-right:2%;
+}
+.button > a:nth-child(1){
+	display:none;
+}
+/*bestLabel*/
+.best > section:nth-child(2) > div:nth-child(2) > div:nth-child(n+11) > a > div:nth-child(1) .bestLabel{
+	background:#333;
+}
+.moreDown{
+	display:block;
+	width:100%;
+	text-align:center;
+	font-size:13px;
+	background:#fff;
+}
+.moreDown i{
+	margin-left:7px;
+}

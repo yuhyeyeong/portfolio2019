@@ -1,0 +1,197 @@
+.orderbody .topTitle{
+	background:#a01f31;
+	color:#fff;
+}
+.orderbody .topTitle > .wrapper > a:nth-of-type(2){
+	float:right;
+}
+.orderbody .topTitle > .wrapper > span{
+	margin:0;
+} 
+.order > section > .wrapper{
+	padding:12px 0;
+}
+.order > section > .wrapper > h3{
+	font-size:14px;
+	color:#222;
+	float:left;
+	width:calc(100% - 20px);
+}
+.order > section > .wrapper > a{
+	display:block;
+	width:15px;
+	height:15px;
+	float:right;
+}
+/*주문상품*/
+.order > section > .con{
+	background:#fff;
+	padding:10px 0;
+}
+/*img*/
+.order > section > .con > .wrapper > ul > li > p:nth-child(1){
+	margin-bottom:15px;
+}
+.order > section > .con > .wrapper > ul > li > p > span{
+	display:block;
+	float:left;
+}
+.order > section > .con > .wrapper > ul > li > p > span:nth-of-type(1){
+	width:35%;
+	margin-right:3%;	
+}
+/*text*/
+.order > section > .con > .wrapper > ul > li > p > span:nth-of-type(2){
+	width:62%;
+	font-size:13px;
+}
+.order > section > .con > .wrapper > ul > li > p > span:nth-of-type(2) > strong{
+	display:block;
+	font-size:14px;
+}
+.order > section > .con > .wrapper > ul > li > p > span:nth-of-type(2) > span{
+	display:block;
+}
+/*상품명*/
+.order > section > .con > .wrapper > ul > li > p > span:nth-of-type(2) > span:nth-of-type(1){
+	color:#333;
+	font-size:14px;
+}
+/*개수*/
+.order > section > .con > .wrapper > ul > li > p > span:nth-of-type(2) > span:nth-of-type(1) strong{
+	font-size:12px;
+	color:#888;
+	font-weight:300;
+	margin-left:5px;
+	float:none;
+}
+/*개수*/
+.order > section > .con > .wrapper > ul > li > p > span:nth-of-type(2) > span:nth-of-type(2){
+	margin-top:8px;
+}
+/*금액*/
+.order > section > .con > .wrapper > ul > li > p > span:nth-of-type(2) > span strong{
+	float:right;
+}
+/*총결제금액*/
+.allprice{
+	width:100%;
+	font-size:15px;
+	font-weight:600;
+}
+.allprice >  strong{
+	float:right;
+	font-weight:300;
+	font-size:13px;
+}
+.allprice >  strong > span{
+	color:#cc050d;
+	font-size:15px;
+	font-weight:600;
+}
+/*주문자정보*/
+.order > section .con.list > .wrapper > ul > li{
+	padding:8px 0;
+	box-sizing:border-box;
+}
+.order > section .con.list > .wrapper > ul > li > p{
+	width:96%;
+	margin:0 auto;
+}
+/*제목*/
+.order > section .con.list > .wrapper > ul > li > p > strong{
+	display:block;
+	float:left;
+	width:30%;
+	line-height:35px;
+	font-size:14px;
+}
+/*input*/
+.order > section .con.list > .wrapper > ul > li > p > span{
+	display:block;
+	float:left;
+	width:70%;
+	margin:0;
+}
+.order > section .con.list > .wrapper > ul > li > p > span > input{
+	width:100%;
+	border:1px solid #dbdbdb;
+	box-sizing:border-box;
+	padding:0 10px;
+	font-size:12px;
+	color:#999;
+	height:35px;
+}
+/*연락처*/
+.order > section .con.list > .wrapper > ul > li:nth-child(2) > p > span{
+	font-weight:300;
+	font-size:12px;
+}
+.order > section .con.list > .wrapper > ul > li:nth-child(2) > p > span > input{
+	width:70%;
+	height:100%;
+	border:1px solid #dbdbdb;
+	box-sizing:border-box;
+	padding:0 10px;
+	font-size:12px;
+	color:#999;
+	float:left;
+	height:35px;
+}
+.order select{
+	border:1px solid #dbdbdb;
+	box-sizing:border-box;
+	height:35px;
+	line-height:35px;
+	color:#999;
+	width:25%;
+	float:left;
+	padding-left:5px;
+
+}
+.order > section .con.list > .wrapper > ul > li:nth-child(2) > p > span > span{
+	width:5%;
+	display:inline-block;
+	float:left;
+	text-align:center;
+	line-height:35px;
+	font-size:12px;
+}
+.order > section .con.list > .wrapper > ul > li .btn77{
+	width:50%;
+}
+.btn77{
+	display:inline-block;
+	text-align:center;
+	font-weight:600;
+	color:#fff;
+	height:35px;
+	line-height:35px;
+	font-size:13px;
+	background:#777;
+	margin-top:8px;
+	float:left;
+}
+.order > section .con.list > .wrapper > ul > li:nth-child(2) > p > span > input:nth-of-type(2){
+	width:calc( 50% - 8px);
+	vertical-align:middle;
+	margin-top:8px;
+	margin-left:8px;
+}
+/*이메일*/
+.order > section .con.list > .wrapper > ul > li:nth-child(3) > p > span > input{
+	width:45%;
+	float:left;
+}
+.order > section .con.list > .wrapper > ul > li:nth-child(3) > p > span > span{
+	width:10%;
+	display:inline-block;
+	float:left;
+	text-align:center;
+	line-height:35px;
+	font-size:12px;
+}
+.order > section .con.list > .wrapper > ul > li:nth-child(3) > p > span > select{
+	width:100%;
+	margin-top:8px;
+}

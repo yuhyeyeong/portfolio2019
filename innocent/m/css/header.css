@@ -1,0 +1,200 @@
+header{
+	width:100%;
+	box-shadow:1px 1px 15px rgba(0,0,0,0.1);
+	position:relative;
+	top:0;
+	left:0;
+	z-index:999;
+}
+nav{
+	width:100%;
+}
+
+nav > ul > li{
+	float:left;
+}
+
+
+.asidemenu{
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:-5000px;/**/
+	background:#fff;
+	z-index:9999;
+}
+.topBar{
+	width:100%;
+	background:#a01f31;
+	padding:9px 0;
+}
+.topBar .login{
+	display:block;
+	padding:3px 4px;
+	width:60px;
+	text-align:center;
+	border:1px solid #fff;
+	border-radius:25px;
+	font-size:13px;
+	float:left;
+	color:#fff;
+}
+.topBar > p > span{
+	float:right;
+}
+.topBar > p > span > a{
+	width:22px;
+	height:22px;
+	float:left;
+	margin-left:12px;
+}
+/*asideCon*/
+/*주메뉴*/
+.asidemenu > li:nth-child(2) > ul > li:nth-child(1) {
+	width:100%;
+	background:#555;
+	height:65.5px;
+}
+.asidemenu > li:nth-child(2) > ul > li > a{
+	display:block;
+	width:25%;
+	background:#fff;
+	float:left;
+	border-right:1px solid #ddd;
+	box-sizing:border-box;
+	text-align:center;
+	color:#666;
+	padding:12px 0;
+}
+.asidemenu > li:nth-child(2) > ul > li > a > i{
+	font-size:22px;
+	width:24px;
+	height:24px;
+	display:block;
+	margin:0 auto;
+}
+.asidemenu > li:nth-child(2) > ul > li > a > p{
+	font-size:12px;
+	margin-top:1.5px;
+}
+.menuTitle {
+	background:#eee;
+	color:#333;
+	padding:12px 0px;
+	padding-left:10px;
+	font-size:14px;
+	font-weight:600;
+	width:calc(100%-10px);
+}
+/*카테고리*/
+.asidemenu > li:nth-child(2) > ul > li:nth-child(2){
+	height:164px;
+}
+.asidemenu > li:nth-child(2) > ul > li:nth-child(2) > a{
+	border-bottom:1px solid #ddd;
+}
+.asidemenu > li:nth-child(2) > ul > li:nth-child(2) > a > i{
+	width:20px;
+	height:20px;
+}
+.asidemenu > li:nth-child(2) > ul > li:nth-child(2)  > a > p{
+	font-size:11px;
+}
+/*서비스메뉴*/
+.asidemenu > li:nth-child(2) > ul > li:nth-child(3){
+	height:206px;
+}
+.asidemenu > li:nth-child(2) > ul > li:nth-child(3) > a{
+	width:50%;
+	border-bottom:1px solid #ddd;
+	padding:18px 12px;
+	color:#333;
+}
+.asidemenu > li:nth-child(2) > ul > li:nth-child(3) > a > i{
+	width:18px;
+	height:18px;
+	float:left;
+	margin-right:10px;
+}
+.asidemenu > li:nth-child(2) > ul > li:nth-child(3)  > a > p{
+	font-size:12px;
+	float:left;
+}
+.asidemenu .closeBtn{
+	width:95%;
+	height:40px;
+	background:#333;
+	display:block;
+	text-align:center;
+	line-height:40px;
+	color:#fff;
+	margin:0 auto;
+	margin-top:10px;
+	font-size:13px;
+}
+/*독립*/
+/*nav*/
+/*all*/
+.main{
+	background:#a01f31;
+}
+.main > .wrapper > ul {
+	float:left;
+}
+.main > .wrapper > ul > li > a{
+	color:#fff;
+	display:block;
+	width:20px;
+	height:20px;
+	padding:11px 0;
+}
+/*logo*/
+.main h1{
+	width:94px;
+	height:auto;
+	position:absolute;
+	top:8px;
+	left:50%;
+	margin-left:-42px;
+}
+/*shopping/search icon*/
+nav > .wrapper > div{
+	float:right;
+}
+
+nav > .wrapper > div  a{
+	color:#fff;
+	display:block;
+	width:22px;
+	height:22px;
+	padding:10px 0;
+	float:left;
+	margin-left:12px;
+}
+nav > .wrapper > div  a:nth-child(2){
+	width:20px;
+	height:20px;
+	padding-top:12px;
+}
+/*GNB*/
+.gnb{
+	background:#fff;
+}
+.gnb ul > li{
+	width:20%;
+}
+
+.gnb ul > li > a{
+	text-align:center;
+	padding:10px 0;
+	box-sizing:border-box;
+	display:block;
+	font-size:13px;
+	border-bottom:1.5px solid #fff;
+}
+.gnb ul > li > a.on{
+	color:#a01f31;
+	border-bottom:2px solid #a01f31;
+	font-weight:600;
+}

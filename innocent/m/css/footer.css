@@ -1,0 +1,77 @@
+/*footer*/
+footer {
+	width:100%;
+	font-size:10px;
+	color:#666;
+	text-align:center;
+	padding-bottom:25px;
+}
+footer > nav > .footernav > li{
+	width:50%;
+	background:#333;
+}
+footer > nav > .footernav > li:nth-child(1){
+	border-right:1px solid #444;
+	box-sizing:border-box;
+}
+footer > nav > .footernav > li > a{
+	display:block;
+	font-size:13px;
+	text-align:center;
+	color:#fff;
+	padding:10px 0;
+}
+footer > p{
+	line-height:14px;
+	text-align:center;
+	padding:0px 10px;
+	margin-bottom:12px;
+	margin-top:25px;
+}
+footer > p > a{
+	margin:3px 0;
+	margin-bottom:5px;
+	display:block;
+	color:#444;
+}
+footer > div{
+	width:60%;
+	margin:0 auto;
+	margin-bottom:15px;
+}
+footer > div > div{
+	width:48%;
+	background:#cbcbcb;
+	float:left;
+}
+footer > div > div > a{
+	width:100%;
+	display:block;
+	padding:5px 0;
+	text-align:center;
+	color:#fff;
+}
+footer > div > div:nth-child(2){
+	float:right;
+	line-height:18px;
+}
+footer > div > div:nth-child(1) > a{
+	padding:9px 0;
+}
+footer > div:nth-of-type(2){
+	width:78%;
+	margin-bottom:8px;
+}
+footer > div > a{
+	text-align:center;
+	display:block;
+	float:left;
+	width:38%;
+	border-left:1px solid #ddd;
+	box-sizing:border-box;
+	color:#666;
+}
+footer > div > a:nth-child(1){
+	width:24%;
+	border-left:0;
+}
