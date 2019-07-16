@@ -2,8 +2,8 @@
 
 @media screen and (min-width:1920px){
 	/* common */
-	body{ font-size: 25px; }
-	.wrapper{ width: 80%; max-width:none;}
+	body{ font-size: 19px; }
+	.wrapper{ width: 77%; max-width:none;}
 	header .wrapper{ width: 94%; }
 
 	/* sub portfolio */
