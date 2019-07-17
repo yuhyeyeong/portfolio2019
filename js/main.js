@@ -15,7 +15,7 @@ $(function(){
 		function windowHt(){
 			var winHt = $(window).height();
 			var winWt = $(window).width();
-			var contPaddingT = winHt * 0.22;
+			var contPaddingT = winHt * 0.2;
 			if(winWt > 1200){
 				$('.cont .main-slider .wrapper').css({'padding-top':contPaddingT});
 				if(winHt >= 900){
